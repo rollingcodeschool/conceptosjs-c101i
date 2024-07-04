@@ -25,21 +25,19 @@
 
 // Ejercicio 2
 const edad = parseInt(prompt("Ingrese su edad"));
-/*
+// /*
 
-*/ 
-// 18 a 65 años esta obligado a votar
-// 16 y 17 - optativo, 66 en adelante es optativo
-// menores de 16 no pueden votar > =
+// */
+// // 18 a 65 años esta obligado a votar
+// // 16 y 17 - optativo, 66 en adelante es optativo
+// // menores de 16 no pueden votar > =
 if (edad >= 18 && edad <= 65) {
   // document.write("Ingresaste la edad de: "+edad+" años, estas obligado a votar");
-  document.write(`Ingresaste la edad de: ${edad} años, estas  obligado a votar`); 
-}else{
-  // sera que tiene entre 16, 17 o mas de 65
-  if( edad == 16 || edad ==17 ||  edad > 65 ){
-    document.write(`Ingresaste la edad de: ${edad} años, es optativo votar`); 
-  }else{
-    document.write(`Ingresaste la edad de: ${edad} años, no podes votar`);
-  }
+  document.write(
+    `Ingresaste la edad de: ${edad} años, estas  obligado a votar`
+  );
+} else if (edad == 16 || edad == 17 || edad > 65) {
+  document.write(`Ingresaste la edad de: ${edad} años, es optativo votar`);
+} else {
+  document.write(`Ingresaste la edad de: ${edad} años, no podes votar`);
 }
-
