@@ -2,16 +2,18 @@
 // Nota: Tener en cuenta la función length y substring o charAt (developer mozilla)
 
 //1- pedir frase
-const frase = prompt("Ingrese una frase de 4 caracteres");
+const frase = prompt("Ingrese una frase de 4 caracteres").toLowerCase();
 
 console.log(frase);
+console.log(frase.toLowerCase());
+console.log(frase.toUpperCase());
 console.log(frase.length);
 console.log(frase.substring(0, 3));
 console.log(frase.charAt(3));
 
 // hola //aula
 if (
-  frase.charAt(0) === "a" || 
+  frase.charAt(0) === "a" ||  
   frase.charAt(0) === "e" ||
   frase.charAt(0) === "i" ||
   frase.charAt(0) === "o" ||
