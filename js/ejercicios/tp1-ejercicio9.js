@@ -2,7 +2,7 @@
 // Nota: Tener en cuenta la función length y substring o charAt (developer mozilla)
 
 //1- pedir frase
-const frase = prompt("Ingrese una frase de 4 caracteres").toLowerCase();
+const frase = prompt("Ingrese una frase").toLowerCase();
 
 console.log(frase);
 console.log(frase.toLowerCase());
