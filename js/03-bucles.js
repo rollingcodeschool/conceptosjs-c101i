@@ -9,6 +9,7 @@ let numero = 100;
 while (numero <= 10) {
   document.write(`<p>Linea número ${numero}</p>`);
   numero = numero + 1;
+  
 }
 
 /* 

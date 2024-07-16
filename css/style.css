@@ -1,3 +1,13 @@
-.textoResaltado{
-    background: yellow;
+.textoResaltado {
+  background: yellow;
+}
+
+table {
+  border: 1px solid #268fe4;
+  border-collapse: collapse; 
+}
+
+td {
+  border: 1px solid #268fe4;
+  padding: 5px;
 }
